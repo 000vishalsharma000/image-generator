@@ -10,7 +10,7 @@ const openai= new OpenAIApi(configuration);
 
 
 function App() {
-  const [image , setImage]=useState("https://th.bing.com/th/id/OIG.WiXURdCWvfwDBRxUn2_K?pid=ImgGn");
+  const [image , setImage]=useState("");
   const [isLoading, setIsLoading]= useState(false);
   const [prompt, setPrompt]=useState("");
 
